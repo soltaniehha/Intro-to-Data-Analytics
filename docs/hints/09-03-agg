@@ -1,0 +1,5 @@
+We only need the aggregation for "rating" column, so we can use a dictionary format to do this:
+avg_rating = ratings.groupby('movie_id').agg({'rating': 'mean'})
+
+We can also use the following syntax:
+ratings.groupby('movie_id')[['rating']].mean()

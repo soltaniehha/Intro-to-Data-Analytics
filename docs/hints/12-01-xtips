@@ -1,0 +1,1 @@
+X_tips = tips.drop(['sex', 'smoker', 'day', 'time'], axis=1)

@@ -1,0 +1,2 @@
+y = df['Apparent Temperature (C)']
+y.shape

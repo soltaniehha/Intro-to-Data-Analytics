@@ -1,0 +1,1 @@
+You may use method `.where()` on top of your formula: (df['TotalCharges'] / df['tenure']) to set a conditional.

@@ -1,0 +1,1 @@
+sns.barplot(y=data2010.index, x='density', data=data2010)

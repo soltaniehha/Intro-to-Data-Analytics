@@ -1,0 +1,1 @@
+Xtrain, Xtest, ytrain, ytest = train_test_split(X_df, y_df, test_size=0.3, random_state=833)

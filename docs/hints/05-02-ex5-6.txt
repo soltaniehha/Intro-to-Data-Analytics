@@ -1,0 +1,4 @@
+daily = data.resample('D').sum()
+rolling = daily.rolling(30, center=True).mean()
+rolling.plot(style=[':', '--', '-'])
+plt.ylabel('mean daily count');

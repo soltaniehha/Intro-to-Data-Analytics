@@ -1,0 +1,1 @@
+avg_rating_w_title = pd.merge(avg_rating, movies, left_index=True, right_on='movie_id')

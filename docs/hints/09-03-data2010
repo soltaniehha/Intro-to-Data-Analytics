@@ -1,0 +1,1 @@
+data2010 = final[(final['year'] == 2010) & (final['ages'] == 'total')].copy()

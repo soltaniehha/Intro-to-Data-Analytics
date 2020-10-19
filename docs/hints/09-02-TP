@@ -1,0 +1,2 @@
+TP = sum((ytest == "Yes") & (y_model == "Yes"))
+TP

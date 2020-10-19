@@ -1,0 +1,1 @@
+data2010.set_index('state', inplace=True)

@@ -1,0 +1,2 @@
+from sklearn.linear_model import LogisticRegression  # 1. choose model class
+model = LogisticRegression(solver='liblinear')       # 2. instantiate model

@@ -1,0 +1,2 @@
+X = df.drop('Apparent Temperature (C)', axis=1)
+X.shape

@@ -1,0 +1,1 @@
+df['TotalCharges'] = df['TotalCharges'].replace(" ", 0).astype('float32')

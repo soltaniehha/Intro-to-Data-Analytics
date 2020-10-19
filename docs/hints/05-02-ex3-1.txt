@@ -1,0 +1,4 @@
+googl_close['2018-04-05':'2019-04-05'].plot(alpha=0.5, style='-')
+googl_close['2018-04-05':'2019-04-05'].resample('2W').mean().plot(style=':.')
+
+plt.legend(['input', 'resample'], loc='upper left');

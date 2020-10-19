@@ -1,0 +1,2 @@
+data.plot()
+plt.ylabel('Hourly Bicycle Count');

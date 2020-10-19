@@ -1,0 +1,2 @@
+n_rating = ratings.groupby('movie_id').agg({'movie_id':'count'})
+n_rating.columns = ['n_ratings']

@@ -1,0 +1,4 @@
+from sklearn.naive_bayes import GaussianNB # 1. choose model class
+model = GaussianNB()                       # 2. instantiate model
+model.fit(Xtrain, ytrain)                  # 3. fit model to data
+y_model = model.predict(Xtest)             # 4. predict on new data

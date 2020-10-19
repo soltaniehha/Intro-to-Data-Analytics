@@ -1,0 +1,2 @@
+X_df = df_dummified.drop('Churn', axis=1)
+y_df = df['Churn']

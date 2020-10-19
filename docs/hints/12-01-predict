@@ -1,0 +1,1 @@
+y_kmeans = kmeans.predict(X_tips)   # Transform the data to two dimensions

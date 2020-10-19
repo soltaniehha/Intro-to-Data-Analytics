@@ -1,0 +1,1 @@
+sns.pairplot(hue='cluster', data=X_tips);

@@ -1,0 +1,1 @@
+df['avgMonthlyCharges'] = (df['TotalCharges'] / df['tenure']).where(df['tenure'] > 0, df['MonthlyCharges'])

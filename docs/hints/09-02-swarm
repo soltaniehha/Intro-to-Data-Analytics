@@ -1,0 +1,1 @@
+sns.catplot(y="day", x="total_bill", kind="swarm", data=tips);

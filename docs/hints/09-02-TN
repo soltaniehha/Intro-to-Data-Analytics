@@ -1,0 +1,2 @@
+TN = sum((ytest == "No") & (y_model == "No"))
+TN

@@ -1,0 +1,2 @@
+We can set the number of bins by accessing bins argument:
+plt.hist(deaths['Book Intro Chapter'], bins=5)

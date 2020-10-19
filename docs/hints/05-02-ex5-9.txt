@@ -1,0 +1,2 @@
+by_weekday = data.groupby(data.index.dayofweek).mean()
+by_weekday.plot(style=[':', '--', '-']);

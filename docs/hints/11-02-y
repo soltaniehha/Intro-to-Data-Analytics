@@ -1,0 +1,2 @@
+y = titanic['survived']
+y.shape

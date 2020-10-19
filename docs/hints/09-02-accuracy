@@ -1,0 +1,1 @@
+print("Our model is", round(sum(ytest == y_model)/len(y_model),2), "accurate!")

@@ -1,0 +1,1 @@
+avg_rating_w_title.sort_values('rating', ascending=False, inplace=True)

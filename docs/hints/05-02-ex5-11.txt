@@ -1,0 +1,7 @@
+fig, ax = plt.subplots(1, 2, figsize=(14, 5))
+by_time.loc['Weekday'].plot(ax=ax[0], title='Weekdays',
+                            xticks=[0, 14400, 28800, 43200, 57600, 72000], 
+                            style=[':', '--', '-'])
+by_time.loc['Weekend'].plot(ax=ax[1], title='Weekends',
+                            xticks=[0, 14400, 28800, 43200, 57600, 72000], 
+                            style=[':', '--', '-']);

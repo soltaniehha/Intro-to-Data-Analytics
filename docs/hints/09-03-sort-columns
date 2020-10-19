@@ -1,0 +1,1 @@
+avg_rating_w_title = avg_rating_w_title[['movie_title', 'rating', 'movie_id']].set_index('movie_id')

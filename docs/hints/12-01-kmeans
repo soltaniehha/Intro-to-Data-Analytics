@@ -1,0 +1,4 @@
+from sklearn.cluster import KMeans  # Choose the model class
+kmeans = KMeans(n_clusters=2, 
+                random_state=833)   # Instantiate the model with hyperparameters
+kmeans.fit(X_tips)                  # Fit to data. Notice y is not specified!

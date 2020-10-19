@@ -1,0 +1,2 @@
+weekly.plot(style=[':', '--', '-'])
+plt.ylabel('Weekly bicycle count');

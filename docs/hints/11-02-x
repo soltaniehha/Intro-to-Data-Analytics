@@ -1,0 +1,2 @@
+X = titanic.drop('survived', axis=1)
+X.shape

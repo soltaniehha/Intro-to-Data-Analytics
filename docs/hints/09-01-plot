@@ -1,0 +1,3 @@
+battles.plot(x='attacker_size', y='defender_size', kind='scatter')
+plt.xlim((-1000, 101000))
+plt.ylim((-100, 21000))

@@ -1,0 +1,1 @@
+sns.catplot(y="day", x="total_bill", hue="smoker", row='sex', kind="box", data=tips, height=3, aspect=3);

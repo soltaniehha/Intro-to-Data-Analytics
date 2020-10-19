@@ -1,0 +1,7 @@
+googl_vol = googl['Volume']
+googl_close_last_year = googl_vol['2009-04-05':'2019-04-05']
+
+googl_close_last_year.plot(alpha=0.5, style='-')
+googl_close_last_year.resample('2Q').mean().plot(style='--')
+
+plt.legend(['input', 'resample'], loc='upper left');

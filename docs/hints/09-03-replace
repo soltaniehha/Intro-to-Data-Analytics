@@ -1,0 +1,1 @@
+merged.loc[merged['state/region'] == 'USA', 'state'] = 'United States'

@@ -1,0 +1,4 @@
+movie_rating = avg_rating_w_title.merge(n_rating, left_index=True, right_index=True)
+
+Or alternatively:
+movie_rating = avg_rating_w_title.join(n_rating)

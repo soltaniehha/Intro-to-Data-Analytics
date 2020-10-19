@@ -1,0 +1,2 @@
+rolling = daily.rolling(50, center=True, win_type='gaussian').mean(std=10)
+rolling.plot(style=[':', '--', '-']);

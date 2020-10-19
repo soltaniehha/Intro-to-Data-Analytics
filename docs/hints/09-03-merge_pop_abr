@@ -1,0 +1,3 @@
+merged = pd.merge(pop, abbrevs, how='outer',
+                  left_on='state/region', right_on='abbreviation')
+merged = merged.drop('abbreviation', 1)  # drop duplicate info
