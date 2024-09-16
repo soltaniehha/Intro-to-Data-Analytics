@@ -20,3 +20,4 @@ References:
 * [A Whirlwind Tour of Python](http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp) by Jake VanderPlas
 * [Spark: The Definitive Guide, 2018](https://learning.oreilly.com/library/view/spark-the-definitive/9781491912201/) by Matei Zaharia, Bill Chambers.
 * [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.
+* [Evaluating the Effect of Volatile Federated Timeseries on Modern DNNs: Attention over Long/Short Memory](https://ieeexplore.ieee.org/document/10176585) I. Siniosoglou, K. Xouveroudis, V. Argyriou, T. Lagkas, S. K. Goudos, K. E. Psannis and P. Sarigiannidis, 12th International Conference on Circuits and Systems Technologies (MOCAST 2023), April 2023
