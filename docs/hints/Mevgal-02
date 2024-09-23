@@ -1,0 +1,5 @@
+plt.style.use('ggplot')  # Apply the 'ggplot' style
+sns.barplot(x='product_id', y='daily_unit_sales_kg', data=df)
+plt.title('Average Daily Unit Sales in Kg')
+plt.ylabel('Average Daily Unit Sales (Kg)')
+plt.ylabel('Product ID');
