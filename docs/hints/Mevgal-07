@@ -1,0 +1,16 @@
+p6 = df[df['product_id']==6]
+
+fig, axes = plt.subplots(1, 2, figsize=(12,6))
+
+sns.boxplot(data=p6, x='Year', y='daily_unit_sales', ax=axes[0], hue='Year', palette=sns.color_palette("Set2", p6['Year'].nunique()))
+axes[0].set_ylabel('Daily Sales (units)')
+axes[0].set_xticks([])  # Remove x-ticks
+axes[0].set_xlabel('')  # Remove x-label
+
+sns.boxplot(data=p6, x='Year', y='daily_unit_sales_kg', ax=axes[1], hue='Year', palette=sns.color_palette("Set2", p6['Year'].nunique()))
+axes[1].set_ylabel('Daily Sales (kg)')
+axes[1].set_xticks([])  # Remove x-ticks
+axes[1].set_xlabel('')  # Remove x-label
+
+plt.suptitle('Daily Sales Comparison - Product 6 (2020-2022)', y=1)
+plt.tight_layout();
