@@ -1,0 +1,4 @@
+product = 1
+sns.histplot(df[df.product_id==product]['daily_unit_sales'])
+plt.xlabel('Daily Unit Sales for Product')
+plt.title(f'Distribution of Daily Unit Sales - Product {product}');
