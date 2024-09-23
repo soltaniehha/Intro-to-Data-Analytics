@@ -1,0 +1,9 @@
+df['Year'] = df['Date'].dt.year
+p6 = df[df['product_id']==6]
+
+fig, axes = plt.subplots(1, 2, figsize=(12,6))
+
+sns.boxplot(data=p6, x='Year', y='daily_unit_sales', ax=axes[0])
+sns.boxplot(data=p6, x='Year', y='daily_unit_sales_kg', ax=axes[1])
+
+plt.tight_layout()
