@@ -1,0 +1,2 @@
+monthly_aggregated_df = df.groupby(['Month', 'product_id'])['daily_unit_sales_kg'].sum().reset_index()
+monthly_aggregated_df.head(3)

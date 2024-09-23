@@ -1,0 +1,1 @@
+df['package_size'] = df['daily_unit_sales_kg'] / df['daily_unit_sales']

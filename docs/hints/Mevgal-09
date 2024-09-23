@@ -1,0 +1,1 @@
+sns.boxplot(x='Year', y='package_size', data=df[df['product_id']==6]);

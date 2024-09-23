@@ -1,0 +1,2 @@
+df['Month'] = df['Date'].dt.to_period('M').dt.to_timestamp()
+df[['Month']].head(2)

@@ -1,0 +1,8 @@
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=df, x='Date', y='daily_unit_sales_kg', hue='product_id')
+plt.title('Daily Unit Sales in KG over Time by Product ID')
+plt.ylabel('Daily Unit Sales (kg)')
+plt.xlabel('Date')
+plt.legend(title='Product ID')
+plt.xticks(rotation=45)
+plt.tight_layout();

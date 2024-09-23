@@ -1,0 +1,11 @@
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=monthly_aggregated_df, x='Month', y='daily_unit_sales_kg', hue='product_id', marker='o', palette="Paired")
+
+# Adding titles and labels
+plt.title('Monthly Aggregated Daily Unit Sales (kg)')
+plt.xlabel('Date')
+plt.ylabel('Daily Unit Sales (kg)')
+
+# Formatting the x-axis to display year and month clearly
+plt.xticks(rotation=90)
+plt.tight_layout()
