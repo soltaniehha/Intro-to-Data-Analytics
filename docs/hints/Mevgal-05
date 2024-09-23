@@ -1,0 +1,7 @@
+g = sns.FacetGrid(df, col="product_id", col_wrap=4, height=3)
+g.map(sns.histplot, 'daily_unit_sales', bins=20)
+
+# Add labels and titles
+g.set_axis_labels('Daily Unit Sales', 'Frequency')
+g.set_titles('Product {col_name}')
+plt.suptitle('Distribution of Daily Unit Sales for All Products', y=1.05);
