@@ -1,0 +1,1 @@
+sns.barplot(x='product_id', y='daily_unit_sales_kg', data=df);
