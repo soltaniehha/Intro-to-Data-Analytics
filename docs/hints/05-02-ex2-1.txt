@@ -1,2 +1,2 @@
-googl_subset3 = googl.loc['2019-03']
-googl_subset3.resample('W').mean()
+tickerDF_subset3 = tickerDF.loc['2024-09']
+tickerDF_subset3.resample('W').mean()
