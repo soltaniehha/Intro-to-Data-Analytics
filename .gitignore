@@ -113,3 +113,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 04-Data-Import-Export/data-detective.txt
+09-Joins-and-APIs/Prompt-and-Join-Exercise.md
