@@ -1,1 +1,2 @@
-len(ytest)
+n_test = len(ytest)
+n_test

@@ -1,4 +1,4 @@
-googl_close['2018-04-05':'2019-04-05'].plot(alpha=0.5, style='-')
-googl_close['2018-04-05':'2019-04-05'].resample('2W').mean().plot(style=':.')
+tickerDF_close['2023-10-01':'2024-10-01'].plot(alpha=0.5, style='-')
+tickerDF_close['2023-10-01':'2024-10-01'].resample('2W').mean().plot(style=':.')
 
 plt.legend(['input', 'resample'], loc='upper left');

@@ -1,1 +1,1 @@
-y_kmeans = kmeans.predict(X_tips)   # Transform the data to two dimensions
+y_kmeans = kmeans.predict(X_tips)   # Assign a cluster label to each data point

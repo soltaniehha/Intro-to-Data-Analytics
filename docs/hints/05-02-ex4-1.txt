@@ -1,7 +1,7 @@
-googl_vol = googl['Volume']
-googl_close_last_year = googl_vol['2009-04-05':'2019-04-05']
+tickerDF_vol = tickerDF['Volume']
+tickerDF_vol_10y = tickerDF_vol['2014-10-01':'2024-10-01']
 
-googl_close_last_year.plot(alpha=0.5, style='-')
-googl_close_last_year.resample('2Q').mean().plot(style='--')
+tickerDF_vol_10y.plot(alpha=0.5, style='-')
+tickerDF_vol_10y.resample('2QE').mean().plot(style='--')
 
 plt.legend(['input', 'resample'], loc='upper left');

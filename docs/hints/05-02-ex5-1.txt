@@ -1,1 +1,1 @@
-data.columns = ['West', 'East']
+data.columns = ['East', 'West']

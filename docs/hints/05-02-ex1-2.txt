@@ -1,1 +1,1 @@
-data.resample('D').mean().ffill()
+data.resample('D').ffill()
