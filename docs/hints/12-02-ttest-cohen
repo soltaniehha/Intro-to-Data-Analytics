@@ -1,0 +1,5 @@
+diff = group_a.mean() - group_b.mean()
+pooled_sd = np.sqrt((group_a.var() + group_b.var()) / 2)
+
+print(f"Difference in mean height: {diff:.2f} cm")
+print(f"Cohen's d: {diff / pooled_sd:.2f}")

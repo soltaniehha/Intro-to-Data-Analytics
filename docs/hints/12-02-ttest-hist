@@ -1,0 +1,10 @@
+fig, axes = plt.subplots(1, 2, figsize=(12, 5), sharey=True)
+axes[0].hist(group_a, bins=20, edgecolor='white')
+axes[0].set_title(f'Height Distribution of {interest_sports[0]} Players (Group A)')
+axes[1].hist(group_b, bins=20, edgecolor='white')
+axes[1].set_title(f'Height Distribution of {interest_sports[1]} Players (Group B)')
+plt.tight_layout()
+plt.show()
+
+print(f"Average height of {interest_sports[0]} players: {group_a.mean():.2f} cm for {len(group_a)} athletes")
+print(f"Average height of {interest_sports[1]} players: {group_b.mean():.2f} cm for {len(group_b)} athletes")

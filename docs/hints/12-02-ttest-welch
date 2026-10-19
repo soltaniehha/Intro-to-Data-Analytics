@@ -1,0 +1,7 @@
+t_stat, p_value = ttest_ind(group_a, group_b, alternative='two-sided', equal_var=False)
+
+print(f"Two-Tailed Test: t-statistic = {t_stat:.4f}, p-value = {p_value:.4g}")
+if p_value < 0.05:
+    print("There is a significant difference between Group A and Group B.")
+else:
+    print("No significant difference between Group A and Group B.")

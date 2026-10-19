@@ -1,0 +1,1 @@
+athlete_subset = athlete_subset.dropna(subset=['Height'])

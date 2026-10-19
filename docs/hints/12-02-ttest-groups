@@ -1,0 +1,2 @@
+group_a = athlete_subset[athlete_subset['Sport'] == interest_sports[0]]['Height']
+group_b = athlete_subset[athlete_subset['Sport'] == interest_sports[1]]['Height']

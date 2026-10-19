@@ -1,0 +1,1 @@
+athlete_subset = athlete_events[(athlete_events['Sport'].isin(interest_sports)) & (athlete_events['Sex'] == 'F')]
